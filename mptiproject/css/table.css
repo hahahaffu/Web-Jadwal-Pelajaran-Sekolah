@@ -1,0 +1,95 @@
+/* Styling untuk tabel di dalam .book_section */
+.book_section .styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.07);
+    border-radius: 5px;
+}
+
+/* Styling untuk header tabel */
+.book_section .styled-table th,
+.book_section .styled-table td {
+    border: 1px solid #ddd; /* Border untuk setiap cell */
+    padding: 10px;
+    text-align: left;
+}
+
+/* Styling untuk header tabel (warna latar belakang dan teks) */
+.book_section .styled-table th {
+    background-color: #00c6a9; /* Warna hijau untuk header */
+    color: #ffffff; /* Teks header putih */
+    font-weight: bold;
+}
+
+/* Styling untuk baris tabel */
+.book_section .styled-table td {
+    color: #252525; /* Warna teks pada cell */
+}
+
+/* Styling untuk baris genap dengan latar belakang berbeda */
+.book_section .styled-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Hover effect untuk baris tabel */
+.book_section .styled-table tbody tr:hover {
+    background-color: rgba(0, 198, 169, 0.1); /* Efek hover dengan warna hijau lembut */
+}
+
+/* Styling untuk tombol di dalam tabel */
+.book_section .styled-table .btn {
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+/* Styling untuk tombol edit */
+.book_section .styled-table .btn-warning {
+    background-color: #f0ad4e;
+    color: white;
+}
+
+.book_section .styled-table .btn-warning:hover {
+    background-color: #ec971f;
+}
+
+/* Styling untuk tombol hapus */
+.book_section .styled-table .btn-danger {
+    background-color: #d9534f;
+    color: white;
+}
+
+.book_section .styled-table .btn-danger:hover {
+    background-color: #c9302c;
+}
+
+/* Styling untuk tombol tambah jadwal */
+.book_section .add-button-container .btn {
+    background-color: #00c6a9;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.book_section .add-button-container .btn:hover {
+    background-color: #009f86;
+}
+
+/* Styling untuk tombol edit */
+.book_section .styled-table .btn-black {
+    background-color: #00c6a9; /* Mengubah warna background tombol Edit menjadi hijau */
+    color: white;
+}
+
+.book_section .styled-table .btn-black:hover {
+    background-color: #009f86; /* Warna hover yang lebih gelap */
+}
+
